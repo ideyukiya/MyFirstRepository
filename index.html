@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YukiyaMizumoriのポートフォリオサイト</title>
+  </head>
+
+<link rel="stylesheet" href="css/styles.css">
+<link rel="favicon" href="">
+<meta name="description" content="YukiyaMizumoriのポートフォリオサイトです">
+
+<body>
+  <header class="image-bg">
+  <h1>-YUKIYAMIZUMORI-</h1>
+</header>
+
+<section class="btn">
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li class="current" >
+          <a href="index.html">
+            HOME
+          </a>
+        </li>
+        <li class="current">
+          <a href="books.html">
+            BOOKS
+          </a>
+        </li>
+        <li class="current">
+          <a href="bio.html">
+            BIO
+          </a>
+        </li>
+        <li class="current">
+          <a href="contact.html">
+            CONTACT
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+<!-- <section class= "roulette">
+
+  <marquee behavior="alternate"> -運試し-</marquee>
+  <marquee scrollamount="8">-青い箱をクリックしてね-</marquee>
+    <style>
+
+    body {
+      display: flow-root;
+      /* flex-wrap: wrap; */
+      background: #000000;
+text-align: center;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background: skyblue;
+      cursor: pointer;
+      transition: 0.8s;
+      margin: 0px 8px 8px 0px;
+      text-align:center;
+      line-height: 100px;
+
+
+    }
+
+    .win {
+      background: pink;
+      border-radius: 50%;
+      transform: rotate(360deg);
+      text-align: center;
+  }
+    .lose {
+      transform: scale(0.9);
+      text-align: center;
+
+    }
+
+
+
+  </style>
+
+  <script>
+  'use strict';
+
+  const num = 5;
+  const winner = Math.floor(Math.random() * num); /*0 - 4のランダム*/
+
+  for (let i = 0; i < num; i++) {
+
+    const div = document.createElement('div');
+    div.classList.add('box');
+    if (i=== winner) {
+      div.dataset.result = 'win';
+    } else {
+      div.dataset.result = 'lose';
+    }
+    div.addEventListener('click', function() {
+      if (div.dataset.result == 'win') {
+        div.textContent = '当たり!';
+        div.classList.add('win');
+      } else {
+        div.textContent = 'はずれ!';
+        div.classList.add('lose');
+      }
+    });
+
+    document.body.appendChild(div);
+  }
+
+  </script>
+</section>
+
+ -->
+
+
+<div class="footer">
+
+  <footer>
+    <ul>
+      <li>
+        <a href="mailto:" target="_blank">
+          <img src="img/mail.png" width="20" height="20" alt="メール送信">
+        </li>
+        </a>
+        <li>
+          <a href="https://twitter.com/KOUYAMIZUMORI" target="_blank">
+            <img src="img/twitter.png" width="20" height="20" alt="twitterへ"></li>
+          </a>
+
+
+        <P>&copy;YukiyaMizumori</p>
+        </ul>
+
+      </footer>
+</div>
+</body>
+</html>
