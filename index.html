@@ -1,143 +1,270 @@
-<!DOCTYPE html>
-<html lang="ja" dir="ltr">
+<!DOCTYPE html id="html-section">
+<html lang="ja">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>YukiyaMizumoriのポートフォリオサイト</title>
   </head>
 
+<!-- stylesheet -->
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="pagePiling.js-master/jquery.pagepiling.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
 <link rel="favicon" href="">
 <meta name="description" content="YukiyaMizumoriのポートフォリオサイトです">
 
 <body>
-  <header class="image-bg">
-  <h1>-YUKIYAMIZUMORI-</h1>
-</header>
 
-<section class="btn">
+  <ul id="nav" class="navSec small-nav">
 
-  <div class="container">
-    <nav>
-      <ul>
-        <li class="current" >
-          <a href="index.html">
-            HOME
-          </a>
-        </li>
-        <li class="current">
-          <a href="books.html">
-            BOOKS
-          </a>
-        </li>
-        <li class="current">
-          <a href="bio.html">
-            BIO
-          </a>
-        </li>
-        <li class="current">
-          <a href="contact.html">
-            CONTACT
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <li data-menuanchor="page1" class="active "><a href="#page1" class="text-dark">
+  <h3>  HOME
+    </a></li>
+  </h3>
+   <li data-menuanchor="page2" class="active"><a href="#page2"class="text-dark">
+    <h3>  BOOKS
+    </a></h3>
+  </li>
+
+    <li data-menuanchor="page3" class="active"><a href="#page3"class="text-dark">
+  <h3>  BIO
+  </a> </h3></li>
+
+    <li data-menuanchor="page4" class="active"><a href="#page4"class="text-dark">
+  <h3>  INFO
+  </a></h3>
+  </li>
+
+  </ul>
+
+
+<div id="pagepiling">
+
+
+
+
+<!-- main -->
+
+
+    <section class="section" id="section1">
+
+        <header class="image-bg small-heder">
+          <ul>
+            <li>
+              <p>-YUKIYAMIZUMORI-</p>
+            </li>
+          </ul>
+        </header>
+    </section>
+
+<!-- books -->
+    <section class="section pp-scrollable" id="section2">
+      <section class="works">
+
+          <h1 data-subtitle="- stores -" class="section-title">
+            ー作品紹介ー
+          </h1>
+
+          <section class="work small-work">
+            <img src="img/yomikaranonegai.jpg" class="imege-fluid"width="420" height="270" alt="作品紹介1">
+            <div class="desc">
+              <h1>『黄泉からの願い』</h1>
+              <p>男子高校生の大川宗晴は眠れない夜が続いていた。<br>
+                毎晩のように見る夢に苛まれ、日々の生活にも影響が出始める。
+                いつしか、その夢が現実とシンクロし始めた時、真実が動き始める。<br><br>
+                -日本文学館様より刊行-
+              </p>
+              <a href="https://www.amazon.co.jp/dp/4776531429/ref=cm_sw_r_tw_dp_U_x_ZXdmDbHD5GFQM ">  -amazon.co.jpへ-</a>
+              </div>
+              </section>
+          <section class="work">
+            <img src="img/introduction2.jpg" class="imege-fluid"width="400" height="270" alt="作品紹介2">
+            <div class="desc">
+              <h1>『コレクター』</h1>
+              <p>人類の夢と希望が詰まった「月面世界」にて、アバターばかり狙う”殺人”<br>
+                事件が発生する。月軌道警察の刑事であるアーサーとサムはこの事件を追いかける<br>
+                中で、月面開発時代の深い闇と遭遇する。<br><br>
+                この作品は「ムーンチャイルド」シリーズのひとつです。<br>
+                宇宙に人類がその生活圏を拡げ、月面都市の人工は爆発的に増加し、
+                月の資源を開発し宇宙開発が飛躍的に進歩した時代。<br>
+                宇宙開発の波にうまく乗れた国や企業とそうでないものたちとの間で格差が広がり、<br>
+                貧富の差や、宇宙資源や自然環境の保護活動をする団体が人類は宇宙に出るべきではなかったと主張。<br>
+                反対派の一部が過激化し暴力手段に訴えるテロリズムが蔓延するなど、<br>
+                人類の宇宙進出という大きな光の影では闇が深く根を張っていた。<br>
+                そんな世界に生きる子供たちの視点から宇宙時代を見つめるシリーズです。
+              </p>
+              <a href="https://estar.jp/novels/25378429">-エブリスタ様掲載ページへ- -連載中-</a>
+              </div>
+            </section>
+          <section class="work">
+            <img src="img/introduction3.jpg"width="420" height="270" alt="作品紹介3">
+            <div class="desc">
+              <h1>『元凶』</h1>
+              <p>全てはマザーの仕組んだ人生なのか？<br>
+      光と闇、愛と無関心、富と貧困。光あるところ影があり、
+      立ち位置によって対象の見え方が変わってしまう。生きることに翻弄される男のお話です。<br><br>
+
+      この作品は、『コレクター』と同様に「ムーンチャイルド」シリーズのひとつです。<br>
+      完結済
+              </p>
+              <a href="https://estar.jp/novels/25341471">-エブリスタ様掲載ページへ-　-完結済-</a>
+              </div>
+            </section>
+          </section>
+        </section>
+
+<!-- bio -->
+    <section class="section pp-scrollable" id="section3">
+      <div class="bio small-bio">
+          <h1>ABUT ME</h1>
+          <p>1987年　長野県佐久市生まれ<br>
+            猫中心のライフスタイル<br><br>
+            エブリスタ様にて小説を投稿しております<br>
+            エブリスタ様へはこちら→
+            <a href="https://estar.jp/users/157072854" target="_blank">
+                    <img src="img/link.png" width="20" height="20" alt="エブリスタへ">
+            </a><br><br>
+
+
+
+
+            -使用言語-<br>
+            佐久弁<br>
+            html/css<br>
+            javascript<br>
+            Ruby<br><br>
+            -好きな作家-<br>
+            スティーブン・キング<br>
+            ジョン・グリシャム<br>
+            シドニー・シェルダン<br>
+            ジェフリー・ディーヴァー<br>
+            チャイナ・ミエヴィル<br>
+            ローレンス・ブロッグ<br>
+            ピエール・ルメートル<br>
+            富樫倫太郎<br>
+            鳥羽亮<br><br>
+            -好きな芸人-<br>
+            ダウンタウン<br>
+            ラーメンズ<br>
+            サンドイッチマン<br>
+            ナインティナイン<br>
+            宮下草薙<br>
+            千鳥<br><br>
+            -好きな漫画-<br>
+            キングダム<br>
+            ワンピース<br>
+            HANTERxHANTER<br>
+            はじめの一歩<br>
+            バキシリーズ<br>
+            タフシリーズ<br>
+            ぼのぼの<br>
+            xxxHOLiC<br>
+            ヴィンランド・サガ<br>
+            プラネテス<br>
+            MoonLightMile<br>
+            地獄の沙汰もお前しだい<br>
+            風の谷のナウシカ<br>
+            四月は君の嘘<br>
+        </p>
+      </div>
+</section>
+
+<!-- contact -->
+    <section class="section" id="section4">
+      <div class="contact">
+        <div class="">
+          <ul>
+            <h1>-お問い合わせ-</h1>
+            <li>
+              <p><u>小説執筆、
+                <span><a href="healthylifedesign.org" alt="HLDhp">
+                  WEBサイト制作承ります。
+                </a></span><br>
+                気軽にご相談ください<br>
+                ～お仕事のご依頼、要望、質問などは下記メールフォームより<br>
+                お問い合わせくださいませ～
+              </u></p>
+
+            </li>
+
+              <ul>
+                <li>
+                  <p>
+                    <a href="mailto:audya897@gmail.com" >
+                      -MAIL-
+                    </a>
+                  </P>
+                </li>
+              </ul>
+          </ul>
+        </div>
   </div>
 </section>
-<!-- <section class= "roulette">
-
-  <marquee behavior="alternate"> -運試し-</marquee>
-  <marquee scrollamount="8">-青い箱をクリックしてね-</marquee>
-    <style>
-
-    body {
-      display: flow-root;
-      /* flex-wrap: wrap; */
-      background: #000000;
-text-align: center;
-    }
-
-    .box {
-      width: 100px;
-      height: 100px;
-      background: skyblue;
-      cursor: pointer;
-      transition: 0.8s;
-      margin: 0px 8px 8px 0px;
-      text-align:center;
-      line-height: 100px;
-
-
-    }
-
-    .win {
-      background: pink;
-      border-radius: 50%;
-      transform: rotate(360deg);
-      text-align: center;
-  }
-    .lose {
-      transform: scale(0.9);
-      text-align: center;
-
-    }
+</div>
 
 
 
-  </style>
-
-  <script>
-  'use strict';
-
-  const num = 5;
-  const winner = Math.floor(Math.random() * num); /*0 - 4のランダム*/
-
-  for (let i = 0; i < num; i++) {
-
-    const div = document.createElement('div');
-    div.classList.add('box');
-    if (i=== winner) {
-      div.dataset.result = 'win';
-    } else {
-      div.dataset.result = 'lose';
-    }
-    div.addEventListener('click', function() {
-      if (div.dataset.result == 'win') {
-        div.textContent = '当たり!';
-        div.classList.add('win');
-      } else {
-        div.textContent = 'はずれ!';
-        div.classList.add('lose');
-      }
-    });
-
-    document.body.appendChild(div);
-  }
-
-  </script>
-</section>
-
- -->
-
-
-<div class="footer">
+<!-- footer -->
 
   <footer>
-    <ul>
-      <li>
-        <a href="mailto:" target="_blank">
-          <img src="img/mail.png" width="20" height="20" alt="メール送信">
-        </li>
-        </a>
-        <li>
-          <a href="https://twitter.com/KOUYAMIZUMORI" target="_blank">
-            <img src="img/twitter.png" width="20" height="20" alt="twitterへ"></li>
-          </a>
+    <div class="row">
+
+        <div class="col">
+          <ul>
+            <li>
+              <P>&copy;YukiyaMizumori<br>2020</p>
+            </li>
+          </ul>
+      </div>
+
+          <div class="col">
+            <ul>
+              <li>
+                <a href="mailto:" target="_blank">
+                  <img src="img/mail.png" width="25" alt="メール送信">
+                </a>
+              </li>
+            </ul>
+          </div>
 
 
-        <P>&copy;YukiyaMizumori</p>
-        </ul>
+        <div class="col">
+          <ul>
+            <li>
+              <a href="https://twitter.com/KOUYAMIZUMORI" target="_blank" alt="ツイッター">
+                <img src="img/twitter.png" width="30"  alt="twitterへ">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+</div>
 
       </footer>
-</div>
+
+      <!-- javascript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="pagePiling.js-master/jquery.pagepiling.min.js"></script>
+      <script>
+      $(function() {
+  $('#pagepiling').pagepiling({
+      menu: '#nav',
+      sectionSelector: '.section',
+      sectionsColor: ['#fff', '#eee', '#ddd', '#ccc'],
+      anchors: ['page1', 'page2', 'page3', 'page4'],
+      navigation: {
+          'textColor': '#000',
+          'bulletsColor': '#000',
+          'position': 'right',
+          'tooltips': ['page1', 'page2', 'page3', 'page4']
+      },
+  });
+});
+      </script>
+
 </body>
 </html>
